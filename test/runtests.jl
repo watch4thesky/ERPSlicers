@@ -43,7 +43,7 @@ using Statistics
     X_std_c2 = std(val2) .*ones(1,ch,ch)
     X_std_labels_true = vcat(X_std_c1, X_std_c2)
     X_std_labels = std_epochs(X, labels, nothing)
-    @test X_std_labels_true ≈ X_std_labels rtol=1e-9
+    @test X_std_labels_true ≈ X_std_labels .+1 rtol=1e-9
 
    
     # == Test based on unique_labels

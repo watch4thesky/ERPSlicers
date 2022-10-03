@@ -1,5 +1,7 @@
 # ERPSlicers
 
+[![CI](https://github.com/watch4thesky/ERPSlicers/actions/workflows/CI.yml/badge.svg)](https://github.com/watch4thesky/ERPSlicers/actions/workflows/CI.yml)
+
 This is a test package for the Automatic Control 2022 Julia course. The implemented functions are computing mean and standard deviations for EEG-data across epochs.
 
 The assumed dataformats are EEG-data of shape (epochs, channels, time-samples) with corresponding labels in a one-dimesional vector. 

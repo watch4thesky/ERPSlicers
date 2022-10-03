@@ -25,6 +25,8 @@ end
 # Function that average_epochs
 function average_epochs(erpsl::ERPSlicer, X, y)
 
+    print("Small change")
+
     unique_labels = erpsl.unique_labels # Just test setting labels like this.
 
     # If we have unlabeled epochs, do average for all epochs

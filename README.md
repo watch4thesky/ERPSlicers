@@ -1,7 +1,7 @@
 # ERPSlicers
 
 [![CI](https://github.com/watch4thesky/ERPSlicers/actions/workflows/CI.yml/badge.svg)](https://github.com/watch4thesky/ERPSlicers/actions/workflows/CI.yml)
-[![Coverage](https://codecov.io/gh/watch4thesky/ERPSlicers/branch/main/graph/badge.svg)](https://codecov.io/gh/watch4thesky/ERPSlicers)
+[![codecov](https://codecov.io/gh/watch4thesky/ERPSlicers/branch/main/graph/badge.svg?token=BAXIWP0EOR)](https://codecov.io/gh/watch4thesky/ERPSlicers)
 
 This is a test package for the Automatic Control 2022 Julia course. The implemented functions are computing mean and standard deviations for EEG-data across epochs.
 

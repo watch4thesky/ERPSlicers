@@ -84,6 +84,10 @@ function std_epochs(X, y, unique_labels)
     return X_std 
 end
 
+function untested(X,y)
+    print("This is a function that does not have test coverage.")
+end
+
 
 """
 Function to slice the data
